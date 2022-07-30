@@ -1,0 +1,32 @@
+@import "../sass-members/mixins";
+
+.input-container{
+    text-align: center;
+}
+
+.app-input{
+    @include font-normal;
+    width: 400px;
+    background: #fff;
+    height: 40px;
+    padding: 10px;
+    border:none;
+    outline: none;
+    border-radius: 1px;
+    padding-left: 25px;
+    &:focus{
+        outline: 2px solid rgb(137, 234, 251);
+    }
+
+}
+
+.app-input-btn{
+    height: 61px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icon-search{
+    padding: 0 5px 0 5px;
+    font-size: 16px;
+}

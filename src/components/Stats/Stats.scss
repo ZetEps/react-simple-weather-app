@@ -1,0 +1,34 @@
+@import "./../sass-members/mixins";
+@import "./../sass-members/animation";
+
+.stats-table{
+    display: grid;
+    background-color: #fff;
+    width: 720px;
+    height: 410px;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    animation: 2s fade;
+    // margin-bottom: 120px;
+}
+
+.stats-table-item{
+    width: 350px;
+    height: 25px;
+    border:3px solid #fff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+    @include font-bold;
+    &::after{
+        content: '';
+        width: 75%;
+        height: 1px;
+        background-color: rgb(244, 211, 211);
+        position: absolute;
+        bottom: 0;
+    }
+}

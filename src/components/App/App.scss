@@ -1,0 +1,29 @@
+@import "./../sass-members/mixins";
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+html,body{
+    height: 100%;
+    background: url("/img/app-bg.jfif") center no-repeat;
+    background-size: cover;
+}
+.app-bg{
+    padding-top: 60px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.fav{
+    text-align: center;
+    margin-top: 20px;
+    @include font-bold;
+    font-size: 20px;
+    color: #fff;
+}

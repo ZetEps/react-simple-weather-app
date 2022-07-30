@@ -1,0 +1,14 @@
+.fav-item{
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(107, 193, 239);
+
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    border:0;
+    &:hover{
+        outline: 2px solid rgb(137, 234, 251);
+    }
+}

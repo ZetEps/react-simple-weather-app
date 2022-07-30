@@ -1,0 +1,61 @@
+@import "../sass-members/mixins";
+@import "../sass-members/animation";
+
+
+
+
+.temp-card{
+    @include font-normal;
+    font-size: 18px;
+    width: 320px;
+    height: 460px;
+    background-color: #ffffff;
+    text-align: center;
+    animation: 2s fade;
+
+}
+
+.temp{
+    margin-top: 40px;
+    @include font-bold;
+    font-size: 96px;
+
+}
+
+.degree-icon{
+    width: 50px;
+    height: 50px;
+    font-size: 96px;
+
+}
+
+.icon{
+    font-size: 120px;
+}
+
+.refresh-time{
+    font-size: 20px;
+}
+
+.location{
+    margin-top: 15px;
+    @include font-bold;
+    font-size: 20px;
+}
+
+.fav-btn{
+    display: inline-block;
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 40px;
+    width: 140px;
+    height: 32px;
+    font-size: 14px;
+    @include font-bold;
+    border-radius: 5px;
+    color:#ffffff;
+    cursor: pointer;
+    &:hover{
+        outline: 2px solid rgb(137, 234, 251);
+    }
+}
